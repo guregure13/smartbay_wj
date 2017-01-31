@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SMARTBAY</title>
+  
+  <!-- Add to Favicon -->
+    <link rel="shortcut icon" href="<%= image_path 'Favicon.png' %>">
+    
+  <!-- Meta data -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
+  <%= csrf_meta_tags %>
+  
+  <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet" />
+  
+  
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
