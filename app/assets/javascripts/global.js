@@ -56,7 +56,7 @@ $(function() {
 	/* 04 - function on page load */
 	/*============================*/
 	$(window).on('load', function(){
-
+		
 		_functions.initSwiper();
 		$('body').addClass('loaded');
 		$('#loader-wrapper').fadeOut();
