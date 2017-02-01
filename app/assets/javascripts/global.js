@@ -26,6 +26,7 @@ $(function() {
 	/* 02 - page calculations */
 	/*========================*/
 	_functions.pageCalculations = function(){
+		
 		winW = $(window).width();
 		winH = $(window).height();
 		_isphone = $('.phone-marker').is(':visible') ? true : false;
@@ -55,6 +56,7 @@ $(function() {
 	/* 04 - function on page load */
 	/*============================*/
 	$(window).on('load', function(){
+
 		_functions.initSwiper();
 		$('body').addClass('loaded');
 		$('#loader-wrapper').fadeOut();
