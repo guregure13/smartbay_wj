@@ -5,7 +5,7 @@
     <!-- HEADER -->
     <header class="type-2">
         <div class="header-wrapper">
-            <a id="logo" class="btn" href="index.html"><img src="<%= image_path 'logo_m.png'%>" alt="" /></a>
+            <a id="logo" class="btn" href="home/index"><img src="<%= image_path 'logo_m.png'%>" alt="" /></a>
             <div class="hamburger-icon">
                 <span></span>
                 <span></span>
@@ -25,18 +25,18 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="index.html" class="btn">Home</a>
+                        <a href="home/index" class="btn">Home</a>
                         
                     </li>
                     <li>
-                        <a href="about.html" class="btn" style="font-family:godic">우정스마트베이</a>
+                        <a href=home/"about" class="btn" style="font-family:godic">우정스마트베이</a>
                     
                     </li>
                     
-                    <li><a href="floor.html" class="btn" style="font-family:godic">층별 안내</a></li>
+                    <li><a href="home/floor" class="btn" style="font-family:godic">층별 안내</a></li>
                     
                     <li>
-                        <a href="contact.html" class="btn" style="font-family:godic">관심고객 등록문의</a>
+                        <a href="home/contact" class="btn" style="font-family:godic">관심고객 등록문의</a>
                     </li>
                     
                 </ul>
@@ -185,10 +185,6 @@
             speed: 1000
         });
     });
-    
-  $('.btn').click(function(){
-    window.location.reload();
-  });
   
 
 </script>
